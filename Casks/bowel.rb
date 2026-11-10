@@ -1,6 +1,6 @@
 cask "bowel" do
-  version "0.2.1"
-  sha256 "cf08e35d3a871d48425c242e0f4d2b6d4a99f9cb20093e648437f9f3b7b9c466"
+  version "0.2.2"
+  sha256 "cfc5a29b03cd6e21295d75a8bbbb4699c900d5955c249a93517e5cae989cbc0c"
 
   url "https://github.com/21stware/bowel/releases/download/v#{version}/bowel-#{version}-arm64.dmg"
   name "bowel"
@@ -12,6 +12,7 @@ cask "bowel" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :monterey
 
