@@ -1,11 +1,11 @@
 cask "bowel" do
-  version "0.2.2"
-  sha256 "cfc5a29b03cd6e21295d75a8bbbb4699c900d5955c249a93517e5cae989cbc0c"
+  version "0.3.0"
+  sha256 "8cf121b8dd08db3cda21ada2aa3c99a50522ec8c9d365334b04df4328bf9c240"
 
   url "https://github.com/21stware/bowel/releases/download/v#{version}/bowel-#{version}-arm64.dmg"
   name "bowel"
   desc "Desktop client for mihomo"
-  homepage "https://21stware.github.io/bowel/"
+  homepage "https://bowel.dev/"
 
   livecheck do
     url :url
