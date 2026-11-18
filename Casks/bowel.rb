@@ -17,6 +17,7 @@ cask "bowel" do
   depends_on macos: :monterey
 
   app "bowel.app"
+  binary "#{appdir}/bowel.app/Contents/MacOS/bowel"
 
   uninstall quit: "dev.moho.app"
 
