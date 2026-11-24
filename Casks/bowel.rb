@@ -1,6 +1,6 @@
 cask "bowel" do
-  version "0.4.7"
-  sha256 "47e081807aab656607c3c5b5266489b066d2e85fc1924c6e9041ec05933dff6d"
+  version "0.4.8"
+  sha256 "39c3feea892655c67721c80979fea1348b3df208b4a9693542f5846dbdddaa03"
 
   url "https://github.com/21stware/bowel/releases/download/v#{version}/bowel-#{version}-arm64.dmg"
   name "bowel"
